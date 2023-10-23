@@ -1,0 +1,112 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  color:rgb(255, 255, 255);
+  font-size: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.55em;
+  background: #000;
+}
+
+p {
+  letter-spacing: 0.03em;
+  line-height: 1.55em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.4em;
+}
+
+.offer {
+  width: 400px;
+  margin-bottom: 98px;
+}
+
+.place {
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+
+.offer-title {
+  font-size: 45px;
+  margin-bottom: 21px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+
+.dis-link-button {
+  font-size: 18px;
+  padding: 18px 30px;
+  border: 1px solid white;
+  width: 197px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+.dis-link-button:hover {
+  background: white;
+  color: #000;
+  border: 1px dashed white;
+}
+
+.dis-link-button:active{
+  border: 1px solid white;
+}
+
+.header {
+  padding-top: 72px;
+  margin: 0 auto; 
+}
+
+.page1 {
+  width: 1280px;
+  margin: 0px auto;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid snow;
+  margin-bottom: 100px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.intro {
+  background: rgb(0, 0, 0);
+  border: 1px solid white;
+  padding: 30px;
+  width: 500px;
+}
+
+.intro-title {
+  font-weight: 700;
+}
+
+.header-page {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.header-content {
+  padding-top: 100px;
+}
